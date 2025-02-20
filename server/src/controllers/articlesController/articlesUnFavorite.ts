@@ -5,7 +5,7 @@ import userGetPrisma from "../../utils/db/user/userGetPrisma";
 import articleViewer from "../../view/articleViewer";
 
 /**
- * Article controller that must receive a request with an authenticated user.
+ * ArticleItem controller that must receive a request with an authenticated user.
  * The parameters of the request must have a slug.
  * @param req Request with a jwt token verified
  * @param res Response

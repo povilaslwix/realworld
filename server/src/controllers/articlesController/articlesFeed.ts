@@ -13,7 +13,7 @@ function parseQuery(query: ParsedQs) {
 }
 
 /**
- * Article controller that must receive a request with an authenticated user.
+ * ArticleItem controller that must receive a request with an authenticated user.
  * @param req Request with a jwt token verified
  * @param res Response
  * @param next NextFunction

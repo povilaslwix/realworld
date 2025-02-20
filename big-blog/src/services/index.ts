@@ -1,0 +1,1 @@
+export { articlesService } from "./articles";

@@ -17,7 +17,7 @@ function parseArticleListQuery(query: ParsedQs) {
 }
 
 /**
- * Article controller that must receive a request.
+ * ArticleItem controller that must receive a request.
  * @param req Request with an optional jwt token verified
  * @param res Response
  * @param next NextFunction

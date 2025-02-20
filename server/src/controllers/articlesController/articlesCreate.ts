@@ -14,8 +14,8 @@ interface Article {
 }
 
 /**
- * Article controller that must receive a request with an authenticated user.
- * The body of the request must have the article object that is an @interface Article.
+ * ArticleItem controller that must receive a request with an authenticated user.
+ * The body of the request must have the article object that is an @interface ArticleItem.
  * @param req Request with a jwt token verified
  * @param res Response
  * @param next NextFunction
